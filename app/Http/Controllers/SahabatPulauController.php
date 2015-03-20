@@ -33,4 +33,14 @@ class SahabatPulauController extends Controller {
     return view('home');
   }
 
+  /**
+   * Show the about of Sahabat Pulau.
+   *
+   * @return Response
+   */
+  public function about()
+  {
+    return view('about');
+  }
+
 }

@@ -13,6 +13,8 @@
 
 Route::get('/', 'SahabatPulauController@index');
 
+Route::get('/about', 'SahabatPulauController@about');
+
 Route::get('home', 'HomeController@index');
 
 Route::controllers([
