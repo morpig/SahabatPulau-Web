@@ -25,14 +25,14 @@
             <a href="https://editor.stamplay.com/login?utm_source=stamplay&utm_content=navbar_login&utm_medium=website" class="waves-effect waves-light btn">login</a>
           </div>
           <ul class="right hide-on-med-and-down">
-            <li><a href="/docs/main">Home</a></li>
+            <li><a href="/{{ url('/') }}">Home</a></li>
             <li><a href="/pricing">Blog</a></li>
             <li><a href="{{ url('/about') }}">About</a></li>
             <li><a href="/events">Events</a></li>
             <li><a href="/locations">Locations</a></li>
           </ul>
           <ul class="side-nav" id="mobile-nav">
-            <li><a href="/docs/main">Home</a></li>
+            <li><a href="{{ url('/') }}">Home</a></li>
             <li><a href="/pricing">Blog</a></li>
             <li><a href="{{ url('/about') }}">About</a></li>
             <li><a href="/events">Events</a></li>
